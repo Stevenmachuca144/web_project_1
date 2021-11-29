@@ -15,6 +15,7 @@
   max-height: 756px;
   display: flex;
   flex-wrap: wrap;
+ background-color: #F2F2F2;
  
   /* parameters for the header section */
 }
@@ -79,6 +80,7 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ED;
 }
 
 /* End of header block css, start of description css ^_^ */
@@ -92,15 +94,18 @@
 
 .two-columns {
   display: flex;
-  
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .two-columns__brief {
   margin-top: 0;
   margin-bottom: 0;
-  line-height: 1.2;
-  font-size: 18px;
+  line-height: 34px;
+  font-size: 24px;
   font-weight: normal;
+  color: #2f80ED;
 }
 
 .main-text {
@@ -185,7 +190,7 @@ font-weight: bold;
   object-position: left bottom;
   background-repeat: no-repeat;
   background-position: left bottom;
-  
+  background-color: #F2F2F2;
 }
 
 
@@ -213,6 +218,7 @@ font-weight: bold;
   text-decoration: none;
   font-size: 36px;
   font-weight: normal;
+  color: #2f80ED;
 }
 
 
@@ -223,21 +229,27 @@ font-weight: bold;
   background-color: #1F1F1F;
   position: relative;
   z-index: 1;
+  height: 800px;
 }
 
 .section-title_theme_dark {
   
-  width: 60%;
-  margin: 20px 270px;
-  text-align: center;
   color: white;
+  margin: 90px auto 20px;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .section-subtitle_theme_dark {
   width:60%;
-  text-align: center;
-  margin: 0px 270px;
   color: white;
+  margin: auto;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .table__theme_dark {
@@ -252,11 +264,16 @@ font-weight: bold;
 
 
 .table__heading_theme_dark {
-
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .table__text_theme_dark {
   margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .kaufman__triangle {
@@ -268,106 +285,72 @@ font-weight: bold;
   z-index: -1;
 }
 /* start of footer block*/
-
 .footer {
-margin: auto;
-min-height: 350px;
+
 background-color: #1F1F1F;
+color: white;
 }
 
 .footer__columns {
-display: flex;
-height: 350px;
-color: white;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 711px;
+  min-height: 350px;
+  width: 90%;
+}
+
+.footer__column_content_copyright {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 711px;
 }
 
 .logo_place_footer {
   width: 183px;
-  height: 35px;
+  height:35px;
 }
 
-.footer__column_content_copyright {
-  flex-basis: 711px;
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.footer__column_content_about {
-  
-  
+.footer__author {
+  width: 40%;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__column-heading {
-  text-align: center;
-  margin-top: 0px;
+  
+  margin: 0px auto 20px;
+  line-height: 30px;
   font-size: 18px;
   font-weight: bold;
 }
 
-.footer__list {
-  list-style: none;
+.footer__list{
+  height: 150px;
   display: flex;
   flex-direction: column;
-  height: 100px;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 0px;
-  font-size: 18px;
-font-weight: normal;
-margin-top: 20px;
-color: white;
-}
-
-.footer__author {
-  width: 60%;
-  font-size: 18px;
-}
-
-.footer__column-link {
-  color: white;
-}
-
-.footer__list_social {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  height: 100px;
-  align-items: flex-start;
-  justify-content: center;
   justify-content: space-evenly;
-  padding: 0px;
+  list-style: none;
+  padding-left: 0px;
+line-height: 30px;
 font-size: 18px;
 font-weight: normal;
-margin-top: 20px;
-color: white;
 }
 
-.space_2{
-width: 200px;
-height: 350px;
-color: #1F1F1F;
+.footer__column_content_social {
+  
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .footer__social-icons {
   width: 16px;
   height: 16px;
-}
-
-/* black space*/
-
-.black_space_kaufman {
-height: 90px;
-background-color: #1F1F1F;
-}
-
-.black_space {
-  height: 150px;
-  background-color: #1F1F1F;
-}
-
-.black_space_footer {
-  height: 40px;
-  background-color: #1F1F1F;
+  margin-right: 10px;
 }
