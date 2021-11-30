@@ -16,7 +16,7 @@
   display: flex;
   flex-wrap: wrap;
  background-color: #F2F2F2;
- 
+ position: relative;
   /* parameters for the header section */
 }
 
@@ -191,6 +191,7 @@ font-weight: bold;
   background-repeat: no-repeat;
   background-position: left bottom;
   background-color: #F2F2F2;
+  position: relative;
 }
 
 
@@ -202,6 +203,7 @@ font-weight: bold;
   text-align: center;
   font-size: 120px;
   font-weight: bold;
+  
 }
 
 .feynman__subtitle {
@@ -210,15 +212,16 @@ font-weight: bold;
   margin: 70px auto auto;
   font-size: 36px;
   font-weight: normal;
+ 
 }
 
 .feynman__link {
- 
-  margin-left: 1250px;
   text-decoration: none;
   font-size: 36px;
   font-weight: normal;
   color: #2f80ED;
+  position: absolute;
+  right: 100px;
 }
 
 
