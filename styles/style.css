@@ -17,26 +17,21 @@
   flex-wrap: wrap;
  background-color: #F2F2F2;
  position: relative;
+ z-index: 2;
   /* parameters for the header section */
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 
 /* including elements with key-value modifiers */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
+
 
 .logo_place_header {
   width: 154px;
   height: 31px;
   position: absolute;
-  z-index: 1;
-  margin-left: 64px;
-  margin-top: 30px;
+  left: 64px;
+  top: 30px;
 }
 
 .header__title {
@@ -45,37 +40,36 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  z-index: 1;
   align-self: center;
 }
 
 .header__subtitle {
   width: 388px;
   position: absolute;
-  z-index: 1;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  align-self: flex-end;
-  margin-left: 64px;
+  bottom: 30px;
+  left: 64px;
 }
 
 .header__main-illustration {
   width: 756px;
   height: 608px;
   position: absolute;
-  bottom: 0;
-  right: 0;
+  bottom: 0px;
+  right: 0px;
   z-index: 1;
 }
 
 .header__square-pic {
   width: 568px;
   height: 568px;
-  margin-top: 64px;
+  top: 64;
   background-color: #2f80ED;
   position: absolute;
-  right: 0;
+  right: 0px;
+  z-index: -1;
 }
 
 .header__link {
@@ -192,6 +186,7 @@ font-weight: bold;
   background-position: left bottom;
   background-color: #F2F2F2;
   position: relative;
+  padding-top: 100px;
 }
 
 
@@ -232,10 +227,10 @@ font-weight: bold;
   background-color: #1F1F1F;
   position: relative;
   z-index: 1;
-  height: 800px;
+  padding-bottom: 90px;
 }
 
-.section-title_theme_dark {
+.kaufman__section-title_theme_dark {
   
   color: white;
   margin: 90px auto 20px;
@@ -245,7 +240,7 @@ font-weight: bold;
   font-weight: bold;
 }
 
-.section-subtitle_theme_dark {
+.kaufman__section-subtitle_theme_dark {
   width:60%;
   color: white;
   margin: auto;
@@ -272,6 +267,13 @@ font-weight: bold;
   font-weight: bold;
 }
 
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+
 .table__text_theme_dark {
   margin-top: 20px;
   line-height: 1.2;
@@ -292,6 +294,7 @@ font-weight: bold;
 
 background-color: #1F1F1F;
 color: white;
+
 }
 
 .footer__columns {
@@ -299,16 +302,18 @@ color: white;
   display: flex;
   justify-content: space-between;
   flex-basis: 711px;
-  min-height: 350px;
   width: 90%;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .footer__column_content_copyright {
-  height: 450px;
+  
+  bottom: 30px;
+  width: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 711px;
 }
 
 .logo_place_footer {
