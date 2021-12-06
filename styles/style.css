@@ -51,7 +51,10 @@
   bottom: 30px;
   left: 64px;
   z-index: 2;
+  margin-top: 0;
+    margin-bottom: 0;
 }
+
 
 .header__main-illustration {
   width: 756px;
@@ -165,7 +168,10 @@
   line-height: 1.15px;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 0;
+    margin-bottom: 0;
 }
+
 
 .table__text {
   font-size: 18px;
@@ -228,7 +234,9 @@
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
+  
 }
+
 
 .kaufman__section-subtitle_theme_dark {
   width: 60%;
@@ -254,6 +262,8 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 0;
+    margin-bottom: 0;
 }
 
 .table__cell_theme_dark {
