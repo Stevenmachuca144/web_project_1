@@ -362,8 +362,12 @@ font-weight: bold;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
+  
 }
-
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+}
 .footer__column_content_social {
   line-height: 30px;
   font-size: 18px;
