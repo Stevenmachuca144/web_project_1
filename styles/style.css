@@ -17,7 +17,7 @@
   flex-wrap: wrap;
   background-color: #f2f2f2;
   position: relative;
-  
+
   /* parameters for the header section */
 }
 
@@ -60,7 +60,6 @@
   margin-bottom: 0;
 }
 
-
 .header__main-illustration {
   width: 756px;
   height: 608px;
@@ -77,7 +76,6 @@
   background-color: #2f80ed;
   position: absolute;
   right: 0px;
-  
 }
 
 .header__link {
@@ -93,7 +91,6 @@
 
 .two-columns {
   width: 80%;
-  min-width: 784px;
   display: flex;
   margin: 0 auto;
   font-weight: normal;
@@ -111,6 +108,7 @@
 }
 
 .two-columns__main-text {
+  min-width: 784px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -120,10 +118,11 @@
 .two-columns__paragraph {
   margin: 30px 0;
 }
+
 .two-columns__span-accent {
-line-height: 34px;
-font-size: 24px;
-font-weight: bold;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .two-columns__paragraph:first-of-type {
@@ -138,7 +137,6 @@ font-weight: bold;
 
 .digits {
   margin: 100px auto;
-  
 }
 
 .section-title {
@@ -178,19 +176,18 @@ font-weight: bold;
 }
 
 .table__heading {
-  line-height: 1.15px;
+  line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-
 .table__text {
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 
 /* End of digits block*/
@@ -252,9 +249,7 @@ font-weight: bold;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  
 }
-
 
 .kaufman__section-subtitle_theme_dark {
   width: 60%;
@@ -281,7 +276,7 @@ font-weight: bold;
   font-size: 24px;
   font-weight: bold;
   margin-top: 0;
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .table__cell_theme_dark {
@@ -323,8 +318,6 @@ font-weight: bold;
 }
 
 .footer__column_content_copyright {
-  bottom: 30;
-  width: 711px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -362,7 +355,6 @@ font-weight: bold;
   font-weight: normal;
   margin-top: 0;
   margin-bottom: 0;
-  
 }
 .footer__column-link {
   text-decoration: none;
@@ -372,6 +364,10 @@ font-weight: bold;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  row-gap: 10px;
 }
 
 .footer__social-icons {
@@ -379,4 +375,3 @@ font-weight: bold;
   height: 16px;
   margin-right: 10px;
 }
-
