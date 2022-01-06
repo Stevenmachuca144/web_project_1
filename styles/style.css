@@ -214,7 +214,7 @@
 }
 
 .feynman__subtitle {
-  width: 28%;
+  text-align: center;
   margin: 70px auto auto;
   font-size: 36px;
   font-weight: normal;
@@ -238,44 +238,23 @@
   background-color: #1f1f1f;
   position: relative;
   z-index: 1;
+  padding-top: 90px;
   padding-bottom: 90px;
 }
 
 .section-title_theme_dark {
   color: white;
-  margin: 90px auto 20px;
-  text-align: center;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
 }
 
 .section-subtitle_theme_dark {
-  width: 60%;
   color: white;
-  margin: auto;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
 }
 
-.table__theme_dark {
-  width: 1100px;
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  justify-content: space-between;
-  margin: auto;
+.table_theme_dark {
   color: white;
 }
 
 .table__heading_theme_dark {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .table__cell_theme_dark {
@@ -286,10 +265,7 @@
 }
 
 .table__text_theme_dark {
-  margin-top: 20px;
   line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .kaufman__triangle {
@@ -302,12 +278,13 @@
 }
 /* start of footer block*/
 .footer {
-  min-height: 350px;
+  display: flex;
   background-color: #1f1f1f;
   color: white;
 }
 
 .footer__columns {
+  min-height: 250px;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -344,9 +321,17 @@
 }
 
 .footer__list {
-  display: flex;
+  list-style: none;
+  padding-left: 0px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.footer__column_content_social {
+display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   list-style: none;
   padding-left: 0px;
   line-height: 30px;
@@ -358,17 +343,8 @@
 .footer__column-link {
   text-decoration: none;
   color: white;
+  padding-bottom: 10px;
 }
-.footer__column_content_social {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  row-gap: 10px;
-}
-
 .footer__social-icons {
   width: 16px;
   height: 16px;
