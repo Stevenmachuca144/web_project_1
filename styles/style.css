@@ -1,3 +1,11 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
@@ -76,13 +84,44 @@
   background-color: #2f80ed;
   position: absolute;
   right: 0px;
-}
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
+  overflow: hidden;
+} 
+
 
 .header__link {
   text-decoration: none;
   color: #2f80ed;
 }
+/* techniques block */
+.techniques {
+  margin: 100px 0px auto;
+  
+  
+}
 
+.cards {
+  display: flex;
+}
+
+.cards__item {
+width: 920px;
+}
+
+.cards__image {
+  width: 160px;
+  height: 160px;
+  margin: 60px 40px 43px;
+}
+
+.cards__title {
+  margin-bottom: 16px;
+}
+
+.description {
+  margin-bottom: 60px;
+}
 /* End of header block css, start of description css ^_^ */
 
 .description {
