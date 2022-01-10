@@ -103,18 +103,15 @@
   width: 920px;
   display: flex;
   list-style: none;
-  border: 1px solid blue;
-  row-gap: 100px;
+  gap: 100px;
   margin: auto;
   padding-left: 0;
-  overflow: auto;
-  
+  flex-wrap: wrap;
+  padding-bottom: 100px;
 }
 
 .cards__item {
-  border: 1px solid blue;
-  margin-right: 100px;
-  
+  width: 240px;
 
 }
 
@@ -123,7 +120,9 @@
   width: 160px;
   height: 160px;
   margin: 60px 40px 43px;
+  border-radius: 50%;
 }
+
 
 .cards__title {
   line-height: 34px;
@@ -141,17 +140,39 @@
 
 
 .video__iframes {
-
+display: flex;
+margin-top: 50px;
+margin-left: auto;
+margin-right: auto;
+width: 70%;
+gap: 20px;
 }
 
 .video__iframe {
 
 }
+/* oakley block */
+
+.oakley {
+  background-color: #f2f2f2;
+  z-index: -1;
+  top: -50px;
+}
+
+.two-columns_theme_oakley {
+display: flex;
+width: 80%;
+  display: flex;
+  margin: 0 auto;
+  font-weight: normal;
+  justify-content: space-between;
+  padding-top: 160px;
+}
 /* End of header block css, start of description css ^_^ */
 
 .description {
-  margin: 100px auto;
-  margin-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
@@ -163,6 +184,7 @@
   line-height: 23px;
   font-weight: normal;
   text-align: center;
+  
  }
 
 .two-columns {
@@ -171,11 +193,11 @@
   margin: 0 auto;
   font-weight: normal;
   justify-content: space-between;
+  
 }
 
 .two-columns__brief {
   width: 175px;
-  margin-top: 0;
   margin-bottom: 0;
   line-height: 1.2;
   font-size: 18px;
@@ -189,6 +211,7 @@
   font-size: 24px;
   font-weight: normal;
   width: 80%;
+  margin-bottom: 100px;
 }
 .two-columns__paragraph {
   margin: 30px 0;
@@ -234,7 +257,6 @@
 
 /* Section-title/sub-title modifieres */
 .section-title_theme_technique {
-  margin-top: 100px;
   line-height: 1.15;
   }
   .section-subtitle_theme_technique {
@@ -245,6 +267,7 @@
       line-height: 1.15;
       font-size: 60px;
       font-weight: bold;
+      
       }
       
       .section-subtitle_theme_video {
@@ -288,9 +311,71 @@
 
 /* End of digits block*/
 
+/* khan block*/
+.khan {
+margin-top: 105px;
+}
+
+.khan__container {
+width: 80%;
+margin: auto;
+}
+
+.khan__author {
+line-height: 42px;
+font-size: 30px;
+font-weight: normal;
+}
+
+.khan__title {
+margin-bottom: 50px;
+line-height: 1.15;
+font-size: 60px;
+font-weight: bold;
+}
+
+.khan__quote {
+width: 790px;
+margin-bottom: 36px;
+line-height: 34px;
+font-size: 24px;
+font-weight: normal;
+}
+
+.khan__quote-author {
+margin-bottom: 10px;
+line-height: 1.15;
+font-size: 24px;
+font-weight: bold;
+}
+
+.khan__quote-author-subline {
+line-height: 1.15;
+font-size: 24px;
+font-weight: normal;
+}
+
+.khan__book-container {
+display: flex;
+margin-top: 68px;
+gap: 48px;
+}
+
+.khan__book-pic {
+width: 620px;
+height: 608px;
+}
+
+.khan__buy-link {
+line-height: 42px;
+font-size: 24px;
+font-weight: normal;
+text-decoration: none;
+  color: #2f80ed;
+}
+/* end of khan block */
 .feynman {
   min-height: 790px;
-  margin-top: 100px;
   background-image: url(../images/feynman.png);
   object-position: left bottom;
   background-repeat: no-repeat;
@@ -369,9 +454,10 @@
   width: 660px;
   height: 636px;
   position: absolute;
-  top: 0px;
-  right: -124px;
+  top: 200px;
+  right: -50px;
   z-index: -1;
+  animation: rotation 20s linear infinite;
 }
 /* start of footer block*/
 .footer {
