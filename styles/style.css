@@ -162,14 +162,6 @@ gap: 20px;
   padding-bottom: 100px;
 }
 
-.two-columns_theme_oakley {
-display: flex;
-width: 80%;
-  margin: 0 auto;
-  font-weight: normal;
-  justify-content: space-between;
-  
-}
 /* End of header block css, start of description css ^_^ */
 
 .description {
