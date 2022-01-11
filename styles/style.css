@@ -149,14 +149,17 @@ gap: 20px;
 }
 
 .video__iframe {
-
+  border: 0;
+  width: 515px;
+  height: 316px;
 }
 /* oakley block */
 
 .oakley {
   background-color: #f2f2f2;
-  z-index: -1;
-  top: -50px;
+  padding-top: 160px;
+  margin-top: -60px;
+  padding-bottom: 100px;
 }
 
 .two-columns_theme_oakley {
@@ -166,7 +169,7 @@ width: 80%;
   margin: 0 auto;
   font-weight: normal;
   justify-content: space-between;
-  padding-top: 160px;
+  
 }
 /* End of header block css, start of description css ^_^ */
 
@@ -234,7 +237,9 @@ width: 80%;
 /* end of description block */
 
 .digits {
-  margin: 100px auto;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title {
@@ -313,7 +318,8 @@ width: 80%;
 
 /* khan block*/
 .khan {
-margin-top: 105px;
+padding-top: 105px;
+background-color: #f2f2f2;;
 }
 
 .khan__container {
@@ -325,6 +331,8 @@ margin: auto;
 line-height: 42px;
 font-size: 30px;
 font-weight: normal;
+margin-top: 0px;
+margin-bottom: 0px;
 }
 
 .khan__title {
@@ -332,6 +340,7 @@ margin-bottom: 50px;
 line-height: 1.15;
 font-size: 60px;
 font-weight: bold;
+margin-top: 0px;
 }
 
 .khan__quote {
@@ -340,6 +349,7 @@ margin-bottom: 36px;
 line-height: 34px;
 font-size: 24px;
 font-weight: normal;
+margin-top: 0px;
 }
 
 .khan__quote-author {
@@ -347,17 +357,19 @@ margin-bottom: 10px;
 line-height: 1.15;
 font-size: 24px;
 font-weight: bold;
+margin-top: 0px;
 }
 
 .khan__quote-author-subline {
 line-height: 1.15;
 font-size: 24px;
 font-weight: normal;
+margin-top: 0px;
+margin-bottom: 68px;
 }
 
 .khan__book-container {
 display: flex;
-margin-top: 68px;
 gap: 48px;
 }
 
@@ -382,7 +394,6 @@ text-decoration: none;
   background-position: left bottom;
   background-color: #f2f2f2;
   position: relative;
-  padding-top: 100px;
 }
 
 .feynman__title {
@@ -458,6 +469,29 @@ text-decoration: none;
   right: -50px;
   z-index: -1;
   animation: rotation 20s linear infinite;
+}
+/* resourses block */
+
+.resources {
+padding-top: 100px;
+padding-bottom: 217px;
+}
+
+.section-subtitle {
+
+}
+
+.resources__logo-zone {
+  display: flex;
+  width: 1100px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
 }
 /* start of footer block*/
 .footer {
