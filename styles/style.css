@@ -165,7 +165,6 @@ gap: 20px;
 .two-columns_theme_oakley {
 display: flex;
 width: 80%;
-  display: flex;
   margin: 0 auto;
   font-weight: normal;
   justify-content: space-between;
@@ -319,7 +318,7 @@ width: 80%;
 /* khan block*/
 .khan {
 padding-top: 105px;
-background-color: #f2f2f2;;
+background-color: #f2f2f2;
 }
 
 .khan__container {
@@ -475,10 +474,6 @@ text-decoration: none;
 .resources {
 padding-top: 100px;
 padding-bottom: 217px;
-}
-
-.section-subtitle {
-
 }
 
 .resources__logo-zone {
