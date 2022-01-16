@@ -1,0 +1,9 @@
+.khan__title {
+    margin-bottom: 50px;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 0px;
+    }
+
+    @import url(../blocks/khan/__title/khan__title.css);

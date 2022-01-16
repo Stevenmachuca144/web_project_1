@@ -1,0 +1,9 @@
+.khan__author {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
+    @import url(../blocks/khan/__author/khan__author.css);

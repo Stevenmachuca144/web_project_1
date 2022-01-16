@@ -1,0 +1,5 @@
+.table__cell {
+    width: 250px;
+  }
+
+  @import url(../blocks/digits/table/__cell/table__cell.css);

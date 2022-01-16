@@ -1,0 +1,11 @@
+.footer__list {
+    list-style: none;
+    padding-left: 0px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  @import url(../blocks/footer/__list/footer__list.css);

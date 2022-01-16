@@ -1,0 +1,7 @@
+.footer {
+    display: flex;
+    background-color: #1f1f1f;
+    color: white;
+  }
+
+  @import url(../blocks/footer/footer.css);

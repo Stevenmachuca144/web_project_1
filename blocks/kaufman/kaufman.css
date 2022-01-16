@@ -1,0 +1,10 @@
+.kaufman {
+    overflow: hidden;
+    background-color: #1f1f1f;
+    position: relative;
+    z-index: 1;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  @import url(../blocks/kaufman/kaufman.css);

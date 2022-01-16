@@ -1,0 +1,5 @@
+.section-title_theme_dark {
+    color: white;
+  }
+
+  @import url(../blocks/kaufman/section-title/_theme/section-title_theme_dark.css);

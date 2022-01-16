@@ -1,0 +1,10 @@
+.two-columns__main-text {
+    min-width: 784px;
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    width: 80%;
+    margin-bottom: 100px;
+  }
+
+  @import url(../blocks/description/two-columns/__main-text/two-columns__main-text.css);

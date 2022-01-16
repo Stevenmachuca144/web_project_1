@@ -1,0 +1,10 @@
+.cards__title {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  @import url(../blocks/techniques/__title/cards__title.css);

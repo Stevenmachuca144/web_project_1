@@ -1,0 +1,5 @@
+.table_theme_dark {
+    color: white;
+  }
+
+  @import url(../blocks/kaufman/table/_theme/table_theme_dark.css);

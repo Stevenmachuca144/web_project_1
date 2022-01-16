@@ -1,0 +1,5 @@
+.table__heading_theme_dark {
+    color: white;
+  }
+
+  @import url(../blocks/kaufman/table/__heading/_theme/table__heading_theme_dark.css);

@@ -1,0 +1,11 @@
+.footer__columns {
+    min-height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  @import url(../blocks/footer/__columns/footer__columns.css);

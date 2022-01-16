@@ -1,0 +1,9 @@
+.feynman__subtitle {
+    text-align: center;
+    margin: 70px auto auto;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 51px;
+  }
+
+  @import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
