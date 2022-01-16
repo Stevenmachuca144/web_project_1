@@ -8,5 +8,3 @@
     flex-wrap: wrap;
     padding-bottom: 100px;
   }
-
-  @import url(../blocks/techniques/cards/cards.css);

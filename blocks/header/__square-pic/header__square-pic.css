@@ -8,6 +8,4 @@
     transform: rotate(-15deg);
     animation: rotation 20s linear infinite;
     overflow: hidden;
-  } 
-  
-  @import url(../blocks/header/__square-pic/header__square-pic.css);
+  }

@@ -7,5 +7,3 @@
     z-index: -1;
     animation: rotation 20s linear infinite;
   }
-
-  @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);

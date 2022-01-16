@@ -4,7 +4,4 @@
     margin: 0 auto;
     font-weight: normal;
     justify-content: space-between;
-    
   }
-  
-  @import url(../blocks/description/two-columns/two-columns.css);

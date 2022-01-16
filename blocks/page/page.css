@@ -8,5 +8,3 @@
     /* this ensures that all content is centered on screens wider than 1600px */
     font-family: "Helvetica Neue", Arial, sans-serif;
   }
-
-  @import url(../blocks/page/page.css);
