@@ -6,3 +6,25 @@
     transform: rotate(360deg);
   }
 }
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  top: 64px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0px;
+  transform: rotate(-15deg);
+  overflow: hidden;
+  animation: rotation 20s linear infinite;
+}
+
+.kaufman__triangle {
+  width: 660px;
+  height: 636px;
+  position: absolute;
+  top: 200px;
+  right: -50px;
+  z-index: -1;
+  animation: rotation 20s linear infinite;
+}
