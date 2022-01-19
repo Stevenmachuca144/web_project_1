@@ -1,11 +1,8 @@
 .footer__column_content_social {
-    display: flex;
-      flex-direction: column;
-      list-style: none;
-      padding-left: 0px;
-      line-height: 30px;
-      font-size: 18px;
-      font-weight: normal;
-      margin-top: 0;
-      margin-bottom: 0;
-    }
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
